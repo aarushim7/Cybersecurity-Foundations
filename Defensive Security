@@ -1,0 +1,306 @@
+# Defensive Security
+
+## Introduction
+
+Defensive Security focuses on protecting systems, networks, applications, and data from cyber threats. While offensive security identifies vulnerabilities by thinking like an attacker, defensive security aims to detect, prevent, and respond to attacks.
+
+The primary goal of defensive security is to maintain the confidentiality, integrity, and availability of information systems.
+
+---
+
+# Why Defensive Security Matters
+
+Organizations face various cyber threats, including:
+
+- Malware
+- Phishing Attacks
+- Data Breaches
+- Ransomware
+- Insider Threats
+- Denial of Service Attacks
+
+Defensive security helps organizations reduce risks and protect critical assets.
+
+---
+
+# Core Objectives of Defensive Security
+
+## Prevention
+
+Prevent attacks before they occur.
+
+Examples:
+
+- Firewalls
+- Strong Password Policies
+- Multi-Factor Authentication
+- Security Awareness Training
+
+---
+
+## Detection
+
+Identify suspicious activity as quickly as possible.
+
+Examples:
+
+- Intrusion Detection Systems (IDS)
+- Security Monitoring
+- Log Analysis
+
+---
+
+## Response
+
+Take action when a security incident occurs.
+
+Examples:
+
+- Isolating infected systems
+- Blocking malicious traffic
+- Removing malware
+
+---
+
+## Recovery
+
+Restore systems and operations after an attack.
+
+Examples:
+
+- Backups
+- Disaster Recovery Plans
+- Incident Recovery Procedures
+
+---
+
+# Security Operations Center (SOC)
+
+A Security Operations Center (SOC) is a team responsible for monitoring and defending an organization's infrastructure.
+
+SOC analysts continuously monitor systems for suspicious activity and investigate security alerts.
+
+Responsibilities include:
+
+- Monitoring logs
+- Investigating incidents
+- Responding to threats
+- Improving security controls
+
+---
+
+# Common Defensive Security Tools
+
+## Firewalls
+
+A firewall controls incoming and outgoing network traffic based on predefined security rules.
+
+Purpose:
+
+- Block unauthorized access
+- Protect internal networks
+
+---
+
+## Antivirus Software
+
+Antivirus software detects and removes malicious software.
+
+Examples:
+
+- Viruses
+- Trojans
+- Worms
+
+---
+
+## Intrusion Detection Systems (IDS)
+
+IDS solutions monitor networks and systems for suspicious activity.
+
+Purpose:
+
+- Detect attacks
+- Generate alerts
+
+---
+
+## Intrusion Prevention Systems (IPS)
+
+IPS solutions can automatically block malicious activity.
+
+Purpose:
+
+- Detect attacks
+- Stop attacks in real time
+
+---
+
+# Log Analysis
+
+Logs record system and network activity.
+
+Examples:
+
+- Login attempts
+- File access
+- Network connections
+
+Security professionals analyze logs to identify suspicious behavior and investigate incidents.
+
+---
+
+# Security Monitoring
+
+Continuous monitoring helps organizations identify threats early.
+
+Activities include:
+
+- Reviewing logs
+- Monitoring network traffic
+- Tracking user activity
+- Detecting anomalies
+
+---
+
+# Incident Response
+
+Incident Response is the process of handling security incidents.
+
+Common phases include:
+
+## Preparation
+
+Develop procedures and security controls.
+
+## Detection and Analysis
+
+Identify and investigate incidents.
+
+## Containment
+
+Prevent the threat from spreading.
+
+## Eradication
+
+Remove malicious activity.
+
+## Recovery
+
+Restore normal operations.
+
+## Lessons Learned
+
+Review the incident and improve defenses.
+
+---
+
+# Malware
+
+Malware refers to malicious software designed to damage, disrupt, or gain unauthorized access to systems.
+
+Common types include:
+
+## Virus
+
+Attaches itself to legitimate files and spreads when executed.
+
+## Worm
+
+Spreads automatically across networks.
+
+## Trojan
+
+Disguises itself as legitimate software.
+
+## Ransomware
+
+Encrypts files and demands payment for recovery.
+
+---
+
+# Phishing
+
+Phishing is a social engineering attack that attempts to trick users into revealing sensitive information.
+
+Examples:
+
+- Fake login pages
+- Fraudulent emails
+- Malicious links
+
+Defensive measures include:
+
+- Security awareness training
+- Email filtering
+- Multi-Factor Authentication
+
+---
+
+# Defensive Security and Networking
+
+Networking knowledge is essential for defensive security.
+
+Security professionals must understand:
+
+- TCP/IP
+- DNS
+- HTTP
+- Ports
+- Firewalls
+- Network Traffic
+
+This knowledge helps identify suspicious behavior and investigate potential attacks.
+
+---
+
+# Real-World Example
+
+Suppose a company notices repeated failed login attempts from an unknown IP address.
+
+A security analyst may:
+
+1. Review system logs.
+2. Identify the source of the activity.
+3. Block the IP address.
+4. Investigate whether any accounts were compromised.
+5. Strengthen authentication controls.
+
+This process helps protect the organization from unauthorized access.
+
+---
+
+# Offensive Security vs Defensive Security
+
+| Offensive Security | Defensive Security |
+|-------------------|-------------------|
+| Finds vulnerabilities | Protects systems |
+| Simulates attacks | Detects attacks |
+| Red Team | Blue Team |
+| Identifies weaknesses | Strengthens defenses |
+
+Both approaches are essential for maintaining strong security.
+
+---
+
+# Practical Application
+
+While learning cybersecurity fundamentals, I studied networking concepts such as DNS, HTTP, TCP/IP, and ports. Understanding how network communication works is important for detecting suspicious activity and investigating security incidents.
+
+I also developed a Python Port Scanner to better understand how services are exposed on a network and how security professionals gather information during assessments.
+
+---
+
+# Key Learning
+
+Defensive Security focuses on protecting systems from threats through prevention, detection, response, and recovery. Security teams use monitoring, logging, firewalls, intrusion detection systems, and incident response procedures to defend organizations against cyber attacks.
+
+Understanding defensive security provides insight into how organizations identify threats, protect assets, and maintain secure operations.
+
+---
+
+# Personal Reflection
+
+While studying defensive security fundamentals, I learned that cybersecurity is not only about identifying vulnerabilities but also about continuously monitoring, protecting, and improving systems.
+
+I gained an appreciation for how security teams use logs, monitoring tools, incident response processes, and security controls to defend organizations against modern cyber threats.
