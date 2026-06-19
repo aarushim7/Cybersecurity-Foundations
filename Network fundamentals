@@ -1,1 +1,46 @@
+# Networking Basics
+
+## What I Learned
+
+Networking is the process of connecting devices so they can communicate and exchange data.
+
+A network can be as small as two computers connected together or as large as the Internet.
+
+## Important Concepts
+
+### IP Address
+
+An IP address identifies a device on a network.
+
+Example:
+
+192.168.1.10
+
+### MAC Address
+
+A MAC address uniquely identifies a network interface card.
+
+Example:
+
+00:1A:2B:3C:4D:5E
+
+Unlike IP addresses, MAC addresses operate at the local network level.
+
+### LAN
+
+LAN stands for Local Area Network.
+
+Examples:
+
+* Home Wi-Fi
+* School computer lab
+* Office network
+
+Devices inside a LAN communicate using switches and routers.
+
+## Key Takeaway
+
+Every device needs an address to communicate.
+
+IP addresses help identify devices across networks, while MAC addresses help identify devices within local networks.
 
