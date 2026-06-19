@@ -1,9 +1,33 @@
-Networking Fundamentals
 
-├── 1-Networking-Basics.md
-├── 2-OSI-and-TCPIP.md
-├── 3-DNS.md
-├── 4-HTTP.md
-├── 5-Ports.md
-├── 6-How-Websites-Work.md
-└── 7-Networking-Summary.md
+# Network Ports
+
+## What are Ports?
+
+Ports are logical communication endpoints used by applications and services on a computer.
+
+## Why Ports Exist
+
+A single computer may run multiple services simultaneously. Ports help the operating system determine which service should receive incoming traffic.
+
+## Common Ports
+
+| Port | Service |
+|--------|--------|
+| 20 | FTP |
+| 21 | FTP |
+| 22 | SSH |
+| 23 | Telnet |
+| 25 | SMTP |
+| 53 | DNS |
+| 80 | HTTP |
+| 110 | POP3 |
+| 143 | IMAP |
+| 443 | HTTPS |
+
+## Connection to My Project
+
+My Python port scanner identifies open ports and maps them to common services.
+
+## Key Learning
+
+Ports allow multiple network services to operate on the same device without conflict.
