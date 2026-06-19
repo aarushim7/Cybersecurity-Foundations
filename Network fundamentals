@@ -1,9 +1,41 @@
-Networking Fundamentals
+# Hypertext Transfer Protocol (HTTP)
 
-├── 1-Networking-Basics.md
-├── 2-OSI-and-TCPIP.md
-├── 3-DNS.md
-├── 4-HTTP.md
-├── 5-Ports.md
-├── 6-How-Websites-Work.md
-└── 7-Networking-Summary.md
+## What is HTTP?
+
+HTTP is the protocol used by web browsers and web servers to communicate.
+
+## HTTP Request Methods
+
+### GET
+Retrieves data from a server.
+
+### POST
+Sends data to a server.
+
+### PUT
+Updates existing data.
+
+### DELETE
+Removes data.
+
+## Common Status Codes
+
+### 200 OK
+Request was successful.
+
+### 301 Moved Permanently
+Resource has moved.
+
+### 404 Not Found
+Requested page does not exist.
+
+### 500 Internal Server Error
+Problem occurred on the server.
+
+## HTTPS
+
+HTTPS is the secure version of HTTP and uses TLS encryption to protect data during transmission.
+
+## Key Learning
+
+HTTP enables communication between browsers and web servers, while HTTPS adds confidentiality and security. 
