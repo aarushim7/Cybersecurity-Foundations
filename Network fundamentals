@@ -1,46 +1,48 @@
-# Networking Basics
+# OSI and TCP/IP Models
 
-## What I Learned
+## Why Models Exist
 
-Networking is the process of connecting devices so they can communicate and exchange data.
+Networking models divide communication into layers so that each layer has a specific responsibility.
 
-A network can be as small as two computers connected together or as large as the Internet.
+## OSI Model
 
-## Important Concepts
+1. Physical Layer
+2. Data Link Layer
+3. Network Layer
+4. Transport Layer
+5. Session Layer
+6. Presentation Layer
+7. Application Layer
 
-### IP Address
+## TCP/IP Model
 
-An IP address identifies a device on a network.
+1. Network Access Layer
+2. Internet Layer
+3. Transport Layer
+4. Application Layer
 
-Example:
+## Transport Layer
 
-192.168.1.10
+### TCP
+- Reliable
+- Connection-oriented
+- Uses acknowledgements
+- Guarantees delivery
 
-### MAC Address
+### UDP
+- Faster
+- Connectionless
+- No delivery guarantee
 
-A MAC address uniquely identifies a network interface card.
+## Example
 
-Example:
+When opening a website:
 
-00:1A:2B:3C:4D:5E
+- Application Layer uses HTTP
+- Transport Layer uses TCP
+- Internet Layer uses IP
+- Network Access Layer uses Ethernet or Wi-Fi
 
-Unlike IP addresses, MAC addresses operate at the local network level.
+## Key Learning
 
-### LAN
-
-LAN stands for Local Area Network.
-
-Examples:
-
-* Home Wi-Fi
-* School computer lab
-* Office network
-
-Devices inside a LAN communicate using switches and routers.
-
-## Key Takeaway
-
-Every device needs an address to communicate.
-
-IP addresses help identify devices across networks, while MAC addresses help identify devices within local networks.
-
+The TCP/IP model explains how data moves from one device to another through multiple layers of communication.
