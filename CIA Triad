@@ -1,1 +1,159 @@
+# CIA Triad
 
+## Introduction
+
+The CIA Triad is one of the fundamental concepts in cybersecurity. It provides a framework for protecting information and ensuring that systems remain secure.
+
+CIA stands for:
+
+- Confidentiality
+- Integrity
+- Availability
+
+These three principles form the foundation of information security and are used when designing, evaluating, and securing systems.
+
+## Personal Reflection
+
+While studying cybersecurity fundamentals, I learned that security is not only about preventing attacks. A secure system must protect sensitive information, maintain data accuracy, and remain accessible to authorized users.
+
+The CIA Triad provides a simple but powerful framework for understanding how security objectives are achieved in real-world systems.
+
+---
+
+# 1. Confidentiality
+
+## What is Confidentiality?
+
+Confidentiality ensures that information is only accessible to authorized individuals.
+
+The goal is to prevent unauthorized access to sensitive data.
+
+## Examples
+
+- Password-protected accounts
+- Encryption of sensitive files
+- Private company documents
+- Online banking information
+
+## Threats to Confidentiality
+
+- Data breaches
+- Phishing attacks
+- Password theft
+- Insider threats
+
+## Security Controls
+
+- Strong passwords
+- Multi-Factor Authentication (MFA)
+- Encryption
+- Access control policies
+
+## Real-World Example
+
+When logging into an online banking account, only the account owner should be able to view account details. Encryption and authentication mechanisms help maintain confidentiality.
+
+---
+
+# 2. Integrity
+
+## What is Integrity?
+
+Integrity ensures that information remains accurate, complete, and unaltered.
+
+Users must be able to trust that data has not been modified without authorization.
+
+## Examples
+
+- Exam results stored in a database
+- Medical records
+- Financial transactions
+- Software source code
+
+## Threats to Integrity
+
+- Malware
+- Unauthorized modifications
+- Data corruption
+- SQL Injection attacks
+
+## Security Controls
+
+- Hashing
+- Digital Signatures
+- Checksums
+- Version Control Systems
+
+## Real-World Example
+
+A university database should accurately store student grades. Unauthorized modification of grades would violate integrity.
+
+---
+
+# 3. Availability
+
+## What is Availability?
+
+Availability ensures that systems and data are accessible when needed by authorized users.
+
+Even if data is confidential and accurate, it becomes useless if users cannot access it.
+
+## Examples
+
+- Websites
+- Cloud services
+- Online banking systems
+- Hospital information systems
+
+## Threats to Availability
+
+- Denial of Service (DoS) attacks
+- Hardware failures
+- Power outages
+- Ransomware attacks
+
+## Security Controls
+
+- Backups
+- Redundant systems
+- Load balancing
+- Disaster recovery plans
+
+## Real-World Example
+
+An e-commerce website should remain accessible during peak shopping periods. Downtime can result in financial losses and customer dissatisfaction.
+
+---
+
+# Relationship Between the Three Principles
+
+The three components of the CIA Triad work together.
+
+A secure system should:
+
+- Protect sensitive information (Confidentiality)
+- Maintain accurate information (Integrity)
+- Ensure access to information when needed (Availability)
+
+Weakness in any one of these areas can compromise the overall security of a system.
+
+---
+
+# Practical Examples
+
+| Scenario | CIA Principle |
+|-----------|--------------|
+| Encrypting customer data | Confidentiality |
+| Verifying file hashes | Integrity |
+| Maintaining backup servers | Availability |
+| Multi-Factor Authentication | Confidentiality |
+| Digital Signatures | Integrity |
+| Disaster Recovery Planning | Availability |
+
+---
+
+# Key Learning
+
+The CIA Triad is the foundation of cybersecurity. Every security control, policy, and technology ultimately supports one or more of these principles.
+
+Understanding Confidentiality, Integrity, and Availability helps security professionals evaluate risks, design secure systems, and protect organizational assets.
