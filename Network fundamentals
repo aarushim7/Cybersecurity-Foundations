@@ -1,8 +1,31 @@
-Networking Fundamentals
+# Networking Summary
 
-├── 1-Networking-Basics.md
-├── 2-OSI-and-TCPIP.md
-├── 3-DNS.md
-├── 4-HTTP.md
-├── 5-Ports.md
-└── 6-Networking-Summary.md
+## Topics Covered
+
+- Networking Basics
+- LAN and WAN
+- IP Addresses
+- MAC Addresses
+- DNS
+- HTTP and HTTPS
+- TCP/IP
+- Ports
+- Client-Server Architecture
+
+## What I Learned
+
+Networking is the foundation of modern communication systems. Technologies such as DNS, TCP/IP, HTTP and ports work together to allow devices to exchange information over the Internet.
+
+Understanding networking is essential in cybersecurity because attacks and defenses operate on top of network communication.
+
+## Practical Application
+
+To apply these concepts, I built a Python Port Scanner that identifies open ports and services running on a target system.
+
+## Future Learning Goals
+
+- Wireshark
+- Packet Analysis
+- Network Security
+- Intrusion Detection
+- Ethical Hacking
