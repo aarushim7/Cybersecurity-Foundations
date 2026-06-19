@@ -1,0 +1,115 @@
+# Client-Server Basics
+
+## Introduction
+
+The client-server model is one of the most important concepts in networking and modern computing.
+
+It describes how devices communicate and share resources over a network.
+
+---
+
+# What is a Client?
+
+A client is a device or application that requests services or resources.
+
+Examples:
+
+- Web Browser
+- Mobile App
+- Email Client
+
+When you open Google in a browser, your browser acts as the client.
+
+---
+
+# What is a Server?
+
+A server is a system that provides services, resources, or data to clients.
+
+Examples:
+
+- Web Servers
+- Database Servers
+- Email Servers
+
+Servers are designed to handle requests from multiple clients.
+
+---
+
+# How Client-Server Communication Works
+
+Example: Opening a Website
+
+### Step 1
+
+User enters:
+
+www.google.com
+
+### Step 2
+
+The browser sends a request to Google's server.
+
+### Step 3
+
+The server processes the request.
+
+### Step 4
+
+The server sends a response.
+
+### Step 5
+
+The browser displays the webpage.
+
+---
+
+# Examples of Client-Server Systems
+
+| Client | Server |
+|----------|----------|
+| Web Browser | Web Server |
+| Email App | Mail Server |
+| Banking App | Banking Server |
+| Game Client | Game Server |
+
+---
+
+# Advantages of Client-Server Architecture
+
+## Centralized Management
+
+Data can be managed from a central location.
+
+## Scalability
+
+Servers can support many users simultaneously.
+
+## Security
+
+Security controls can be implemented centrally.
+
+## Resource Sharing
+
+Multiple users can access shared resources.
+
+---
+
+# Client-Server and Cybersecurity
+
+The client-server model is important in cybersecurity because many attacks target communication between clients and servers.
+
+Examples:
+
+- Phishing
+- SQL Injection
+- Denial of Service (DoS)
+- Session Hijacking
+
+Understanding client-server communication helps security professionals identify and defend against these threats.
+
+---
+
+# Key Learning
+
+The client-server model forms the foundation of most modern applications and Internet services. Clients request resources, while servers provide them, enabling communication and information exchange across networks.
