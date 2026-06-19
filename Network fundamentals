@@ -1,48 +1,44 @@
-# OSI and TCP/IP Models
+# Domain Name System (DNS)
 
-## Why Models Exist
+## What is DNS?
 
-Networking models divide communication into layers so that each layer has a specific responsibility.
+DNS translates domain names into IP addresses.
 
-## OSI Model
+Example:
 
-1. Physical Layer
-2. Data Link Layer
-3. Network Layer
-4. Transport Layer
-5. Session Layer
-6. Presentation Layer
-7. Application Layer
+google.com
 
-## TCP/IP Model
+↓
 
-1. Network Access Layer
-2. Internet Layer
-3. Transport Layer
-4. Application Layer
+142.250.x.x
 
-## Transport Layer
+## Why DNS is Needed
 
-### TCP
-- Reliable
-- Connection-oriented
-- Uses acknowledgements
-- Guarantees delivery
+Humans can easily remember names but computers communicate using IP addresses.
 
-### UDP
-- Faster
-- Connectionless
-- No delivery guarantee
+## DNS Resolution Process
 
-## Example
+1. User enters a domain name.
+2. Browser checks local cache.
+3. DNS query is sent.
+4. DNS server returns the IP address.
+5. Browser connects to the destination server.
 
-When opening a website:
+## Common DNS Record Types
 
-- Application Layer uses HTTP
-- Transport Layer uses TCP
-- Internet Layer uses IP
-- Network Access Layer uses Ethernet or Wi-Fi
+### A Record
+Maps a domain name to an IPv4 address.
+
+### AAAA Record
+Maps a domain name to an IPv6 address.
+
+### MX Record
+Used for email servers.
+
+### CNAME Record
+Creates aliases for domain names.
 
 ## Key Learning
 
-The TCP/IP model explains how data moves from one device to another through multiple layers of communication.
+DNS acts as the Internet's phonebook and is one of the first services involved when accessing a website.
+
