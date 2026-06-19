@@ -1,0 +1,340 @@
+# Linux Fundamentals
+
+## Introduction
+
+Linux is a free and open-source operating system widely used in servers, cloud computing, cybersecurity, embedded systems, and enterprise environments.
+
+Many of the world's websites, cloud platforms, and security tools run on Linux-based systems.
+
+Understanding Linux is considered a fundamental skill in cybersecurity because security professionals frequently interact with Linux servers, networks, and security tools.
+
+# Personal Reflection
+
+While studying Linux fundamentals, I learned how operating systems manage files, users, processes, and system resources.
+
+I also gained experience with basic Linux commands and developed an understanding of why Linux is widely used in servers, cloud computing, and cybersecurity environments.
+
+Learning Linux strengthened my understanding of how systems operate and provided practical skills that are valuable for cybersecurity and technology-related fields.
+
+---
+
+# What is an Operating System?
+
+An operating system (OS) is software that manages computer hardware and provides services for applications.
+
+Responsibilities of an operating system include:
+
+- Process Management
+- Memory Management
+- File Management
+- Device Management
+- User Management
+
+Examples of operating systems:
+
+- Linux
+- Windows
+- macOS
+
+---
+
+# Why Linux is Popular
+
+Linux is widely used because it offers:
+
+- Stability
+- Security
+- Performance
+- Flexibility
+- Open Source Development
+
+Organizations can customize Linux to meet specific requirements without relying on proprietary software.
+
+---
+
+# Linux Distributions
+
+A Linux distribution (distro) is a version of Linux packaged with software and utilities.
+
+Popular distributions include:
+
+## Ubuntu
+
+Beginner-friendly and widely used.
+
+## Debian
+
+Known for stability and reliability.
+
+## Kali Linux
+
+Designed for cybersecurity and penetration testing.
+
+## Red Hat Enterprise Linux (RHEL)
+
+Used in enterprise environments.
+
+## CentOS
+
+Community-driven distribution derived from Red Hat.
+
+---
+
+# Linux File System
+
+Linux organizes files using a hierarchical directory structure.
+
+The root directory is represented by:
+
+/
+ 
+All files and directories exist under the root directory.
+
+---
+
+# Important Directories
+
+## /home
+
+Stores user files and personal data.
+
+Example:
+
+/home/aarushi
+
+---
+
+## /etc
+
+Contains system configuration files.
+
+---
+
+## /bin
+
+Contains essential command-line utilities.
+
+---
+
+## /var
+
+Stores logs and variable application data.
+
+---
+
+## /tmp
+
+Stores temporary files.
+
+---
+
+## /root
+
+Home directory for the root user.
+
+---
+
+# Linux Users and Permissions
+
+Linux is designed as a multi-user operating system.
+
+Each user has specific permissions that determine what actions they can perform.
+
+Permission types include:
+
+- Read (r)
+- Write (w)
+- Execute (x)
+
+These permissions help protect files and system resources from unauthorized access.
+
+---
+
+# The Command Line Interface (CLI)
+
+The Linux CLI allows users to interact with the operating system through text commands.
+
+Security professionals frequently use the command line because it provides powerful control over systems and networks.
+
+---
+
+# Common Linux Commands
+
+## pwd
+
+Displays the current working directory.
+
+Example:
+
+pwd
+
+---
+
+## ls
+
+Lists files and directories.
+
+Example:
+
+ls
+
+ls -la
+
+---
+
+## cd
+
+Changes directories.
+
+Example:
+
+cd Documents
+
+---
+
+## mkdir
+
+Creates a new directory.
+
+Example:
+
+mkdir Projects
+
+---
+
+## touch
+
+Creates a new file.
+
+Example:
+
+touch notes.txt
+
+---
+
+## cp
+
+Copies files and directories.
+
+Example:
+
+cp file.txt backup.txt
+
+---
+
+## mv
+
+Moves or renames files.
+
+Example:
+
+mv old.txt new.txt
+
+---
+
+## rm
+
+Removes files and directories.
+
+Example:
+
+rm file.txt
+
+---
+
+## cat
+
+Displays file contents.
+
+Example:
+
+cat notes.txt
+
+---
+
+## grep
+
+Searches for patterns within files.
+
+Example:
+
+grep password users.txt
+
+---
+
+# Package Management
+
+Linux distributions use package managers to install and update software.
+
+Examples:
+
+Ubuntu:
+
+apt install package-name
+
+Red Hat:
+
+yum install package-name
+
+Package managers simplify software installation and maintenance.
+
+---
+
+# Linux in Cybersecurity
+
+Linux plays a major role in cybersecurity because many security tools are designed for Linux environments.
+
+Examples:
+
+- Nmap
+- Wireshark
+- Metasploit
+- Burp Suite
+
+Security professionals often use Linux for:
+
+- Network Analysis
+- Security Testing
+- System Administration
+- Incident Response
+
+---
+
+# Linux and Servers
+
+A large percentage of web servers run Linux.
+
+Examples include:
+
+- Apache Web Servers
+- Nginx Web Servers
+- Cloud Infrastructure
+
+Understanding Linux helps security professionals secure and manage these systems.
+
+---
+
+# Real-World Example
+
+Suppose a system administrator needs to investigate suspicious activity on a server.
+
+They may use Linux commands to:
+
+1. Review system logs.
+2. Check active processes.
+3. Examine user accounts.
+4. Analyze network connections.
+5. Investigate unauthorized changes.
+
+Linux provides powerful tools for performing these tasks efficiently.
+
+---
+
+# Key Learning
+
+Linux is one of the most important operating systems in modern computing and cybersecurity.
+
+Its stability, flexibility, security features, and command-line capabilities make it widely used in servers, cloud environments, and security operations.
+
+Developing Linux skills provides a strong foundation for networking, system administration, and cybersecurity.
+
