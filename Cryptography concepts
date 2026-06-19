@@ -1,1 +1,286 @@
+# Cryptography Fundamentals
 
+## Introduction
+
+Cryptography is the practice of securing information by transforming it into a form that unauthorized users cannot understand.
+
+It is one of the most important areas of cybersecurity and is used to protect data confidentiality, integrity, and authenticity.
+
+Cryptography is used daily in online banking, messaging applications, websites, digital payments, and cloud services.
+
+# Personal Reflection
+
+While studying cryptography fundamentals, I learned that cybersecurity is not only about preventing attacks but also about protecting information through strong mathematical and cryptographic techniques.
+
+I also learned how encryption, hashing, and digital signatures work together to secure modern Internet communications and online services.
+
+---
+
+# Why Cryptography is Important
+
+When information is transmitted over a network, attackers may attempt to:
+
+- Read sensitive data
+- Modify information
+- Impersonate legitimate users
+- Steal credentials
+
+Cryptography helps prevent these threats by protecting data during storage and transmission.
+
+---
+
+# Key Terms
+
+## Plaintext
+
+Plaintext is the original readable data.
+
+Example:
+
+Hello World
+
+---
+
+## Ciphertext
+
+Ciphertext is encrypted data that appears unreadable.
+
+Example:
+
+X7A9P2LQ
+
+Only authorized users should be able to convert ciphertext back into plaintext.
+
+---
+
+## Encryption
+
+Encryption is the process of converting plaintext into ciphertext.
+
+Purpose:
+
+- Protect confidentiality
+- Prevent unauthorized access
+
+---
+
+## Decryption
+
+Decryption is the process of converting ciphertext back into plaintext.
+
+Only users with the correct key should be able to decrypt the information.
+
+---
+
+# Cryptographic Keys
+
+A key is a piece of information used during encryption and decryption.
+
+The strength of many cryptographic systems depends on keeping keys secure.
+
+Even strong encryption becomes ineffective if an attacker obtains the key.
+
+---
+
+# Symmetric Encryption
+
+## What is Symmetric Encryption?
+
+Symmetric encryption uses the same key for both encryption and decryption.
+
+Example:
+
+Shared Secret Key
+
+↓
+
+Encrypt Data
+
+↓
+
+Decrypt Data
+
+## Advantages
+
+- Fast
+- Efficient
+- Suitable for large amounts of data
+
+## Disadvantages
+
+- Secure key sharing is difficult
+
+## Examples
+
+- AES (Advanced Encryption Standard)
+- DES
+- 3DES
+
+---
+
+# Asymmetric Encryption
+
+## What is Asymmetric Encryption?
+
+Asymmetric encryption uses two keys:
+
+- Public Key
+- Private Key
+
+The public key can be shared openly.
+
+The private key must remain secret.
+
+## How it Works
+
+Public Key
+
+↓
+
+Encrypt Data
+
+↓
+
+Private Key
+
+↓
+
+Decrypt Data
+
+## Advantages
+
+- Secure key exchange
+- Better for Internet communications
+
+## Disadvantages
+
+- Slower than symmetric encryption
+
+## Examples
+
+- RSA
+- ECC (Elliptic Curve Cryptography)
+
+---
+
+# Hashing
+
+## What is Hashing?
+
+Hashing converts data into a fixed-length value called a hash.
+
+Unlike encryption, hashing is designed to be one-way.
+
+Original Data:
+
+password123
+
+↓
+
+Hash Function
+
+↓
+
+5f4dcc3b5aa765d61d8327deb882cf99
+
+---
+
+## Uses of Hashing
+
+- Password storage
+- File verification
+- Integrity checking
+- Digital signatures
+
+---
+
+# Digital Signatures
+
+Digital signatures help verify:
+
+- Authenticity
+- Integrity
+- Non-repudiation
+
+They allow recipients to verify that a message was sent by the expected sender and has not been modified.
+
+---
+
+# Certificates
+
+Digital certificates are used to verify identities on the Internet.
+
+They are commonly used in HTTPS websites.
+
+Example:
+
+When visiting a secure website, your browser verifies the website's certificate before establishing a secure connection.
+
+---
+
+# HTTPS and Cryptography
+
+HTTPS uses cryptography to secure communication between browsers and web servers.
+
+Benefits:
+
+- Protects sensitive information
+- Prevents eavesdropping
+- Helps verify website identity
+
+Examples:
+
+- Online Banking
+- E-Commerce
+- Email Services
+
+---
+
+# Real-World Applications
+
+Cryptography is used in:
+
+- Online Banking
+- Digital Payments
+- Secure Messaging Apps
+- Cloud Computing
+- Virtual Private Networks (VPNs)
+- HTTPS Websites
+
+Without cryptography, sensitive information transmitted over the Internet would be vulnerable to interception and manipulation.
+
+---
+
+# Common Cryptographic Concepts
+
+| Concept | Purpose |
+|----------|----------|
+| Encryption | Protect Confidentiality |
+| Decryption | Recover Original Data |
+| Hashing | Verify Integrity |
+| Digital Signatures | Verify Authenticity |
+| Certificates | Verify Identity |
+
+---
+
+# Cybersecurity Perspective
+
+Cryptography plays a critical role in cybersecurity because it protects information from unauthorized access and tampering.
+
+Many modern security technologies depend on cryptographic principles, including:
+
+- Secure Authentication
+- HTTPS
+- VPNs
+- Password Storage
+- Digital Signatures
+
+Understanding cryptography is essential for security professionals because it forms the foundation of secure communication systems.
+
+---
+
+# Key Learning
+
+Cryptography protects information by using mathematical techniques to secure data, verify integrity, and authenticate users.
+
+Through encryption, hashing, digital signatures, and certificates, cryptography enables secure communication across modern networks and systems.
