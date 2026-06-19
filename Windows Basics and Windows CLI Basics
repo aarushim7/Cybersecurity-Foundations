@@ -1,0 +1,370 @@
+# Windows Fundamentals
+
+## Introduction
+
+Microsoft Windows is one of the most widely used operating systems in the world. It is commonly used in homes, businesses, educational institutions, and enterprise environments.
+
+Because of its widespread adoption, Windows is frequently targeted by cyber attacks, making Windows security knowledge important for cybersecurity professionals.
+
+---
+
+# What is an Operating System?
+
+An operating system (OS) is software that manages hardware resources and provides services for applications.
+
+Its responsibilities include:
+
+- Process Management
+- Memory Management
+- File Management
+- User Management
+- Device Management
+
+Examples of operating systems include:
+
+- Windows
+- Linux
+- macOS
+
+---
+
+# Windows Architecture
+
+Windows consists of several components working together to manage system operations.
+
+Key components include:
+
+## Kernel
+
+The kernel is the core of the operating system.
+
+Responsibilities:
+
+- Memory Management
+- Process Scheduling
+- Hardware Communication
+
+---
+
+## User Mode
+
+Applications run in user mode.
+
+Examples:
+
+- Microsoft Edge
+- Notepad
+- Microsoft Word
+
+Applications have limited access to system resources to improve security.
+
+---
+
+## Kernel Mode
+
+The operating system kernel and device drivers run in kernel mode.
+
+Processes running in kernel mode have higher privileges and direct access to hardware.
+
+---
+
+# Windows File System
+
+Windows primarily uses the NTFS (New Technology File System).
+
+Features include:
+
+- File Permissions
+- Encryption
+- Compression
+- Access Control Lists (ACLs)
+
+Example path:
+
+C:\Users\Aarushi\Documents
+
+---
+
+# Important Windows Directories
+
+## C:\Windows
+
+Contains core operating system files.
+
+---
+
+## C:\Program Files
+
+Stores installed applications.
+
+---
+
+## C:\Users
+
+Contains user profiles and personal files.
+
+---
+
+## C:\Temp
+
+Stores temporary files.
+
+---
+
+# User Accounts and Permissions
+
+Windows supports multiple users with different permission levels.
+
+Common account types:
+
+## Standard User
+
+Limited permissions.
+
+Suitable for daily use.
+
+---
+
+## Administrator
+
+Elevated privileges.
+
+Can install software and modify system settings.
+
+---
+
+# User Account Control (UAC)
+
+User Account Control helps prevent unauthorized changes to the system.
+
+When elevated privileges are required, Windows prompts the user for confirmation.
+
+This helps reduce the risk of malware executing with administrative permissions.
+
+---
+
+# Windows Command Line Interface
+
+Windows provides command-line tools that allow users to interact with the operating system.
+
+Common interfaces include:
+
+- Command Prompt (CMD)
+- PowerShell
+
+These tools are frequently used by system administrators and cybersecurity professionals.
+
+---
+
+# Common CMD Commands
+
+## dir
+
+Lists files and directories.
+
+Example:
+
+dir
+
+---
+
+## cd
+
+Changes the current directory.
+
+Example:
+
+cd Documents
+
+---
+
+## mkdir
+
+Creates a new directory.
+
+Example:
+
+mkdir Projects
+
+---
+
+## copy
+
+Copies files.
+
+Example:
+
+copy file.txt backup.txt
+
+---
+
+## del
+
+Deletes files.
+
+Example:
+
+del file.txt
+
+---
+
+## ipconfig
+
+Displays network configuration information.
+
+Example:
+
+ipconfig
+
+Useful for viewing:
+
+- IP Address
+- Subnet Mask
+- Default Gateway
+
+---
+
+## ping
+
+Tests connectivity between systems.
+
+Example:
+
+ping google.com
+
+Used for troubleshooting network connections.
+
+---
+
+## tracert
+
+Displays the route packets take to reach a destination.
+
+Example:
+
+tracert google.com
+
+---
+
+# PowerShell
+
+PowerShell is a powerful command-line shell and scripting language developed by Microsoft.
+
+It allows administrators to:
+
+- Automate Tasks
+- Manage Systems
+- Analyze Information
+- Configure Networks
+
+PowerShell is commonly used in enterprise environments.
+
+---
+
+# Windows Security Features
+
+## Windows Defender
+
+Built-in antivirus and security solution.
+
+Provides protection against:
+
+- Malware
+- Viruses
+- Ransomware
+
+---
+
+## Firewall
+
+Windows Firewall monitors and controls network traffic.
+
+It helps prevent unauthorized access to the system.
+
+---
+
+## BitLocker
+
+BitLocker encrypts storage devices to protect data.
+
+Benefits:
+
+- Data Confidentiality
+- Protection Against Device Theft
+
+---
+
+# Event Logs
+
+Windows records system activity through Event Logs.
+
+Examples:
+
+- Login Events
+- Application Events
+- Security Events
+- System Events
+
+Security analysts often review logs during investigations.
+
+---
+
+# Windows in Cybersecurity
+
+Windows knowledge is important because many organizations rely heavily on Windows-based environments.
+
+Security professionals use Windows skills for:
+
+- Incident Response
+- Log Analysis
+- System Administration
+- Malware Investigation
+- Threat Detection
+
+Understanding Windows helps security professionals identify vulnerabilities and investigate security incidents.
+
+---
+
+# Real-World Example
+
+Suppose a user reports suspicious activity on a workstation.
+
+A security analyst may:
+
+1. Review Event Logs.
+2. Examine running processes.
+3. Check user accounts.
+4. Analyze network activity.
+5. Investigate suspicious files.
+
+Windows provides tools that assist in each of these tasks.
+
+---
+
+# Linux vs Windows
+
+| Feature | Windows | Linux |
+|----------|----------|----------|
+| Source Code | Proprietary | Open Source |
+| Ease of Use | User-Friendly | More Technical |
+| Enterprise Usage | Very Common | Very Common |
+| Customization | Moderate | High |
+| Cybersecurity Usage | Important | Widely Used |
+
+Both operating systems are important for cybersecurity professionals.
+
+---
+
+# Key Learning
+
+Windows is one of the most widely used operating systems and plays a major role in enterprise environments.
+
+Understanding Windows architecture, file systems, permissions, command-line tools, and security features provides a strong foundation for cybersecurity and system administration.
+
+---
+
+# Personal Reflection
+
+While studying Windows fundamentals, I learned how Windows manages users, files, processes, and system resources. I also gained experience with command-line tools such as CMD and PowerShell, which are commonly used for troubleshooting, administration, and security-related tasks.
+
+Understanding Windows strengthened my knowledge of operating systems and helped me appreciate the role of security features such as firewalls, encryption, event logging, and access control in protecting modern computing environments.
